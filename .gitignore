@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+dist/
+build/
+.npm/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Database and Data
+*.sqlite
+*.sqlite3
+backend/data/hospitals/*/*.csv
+backend/data/hospitals/*/*.pkl
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
