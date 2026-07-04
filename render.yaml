@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: medifed-backend
+    env: docker
+    plan: free
+    rootDir: backend
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 10000
